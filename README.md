@@ -3,7 +3,7 @@
 <pre>
 On Github my name is pjgsch.
 
-For a webpage see:  <a href="https://pjgsch.github.io"></a>
+Webpage with repositories:  <a href="https://pjgsch.github.io">here</a>.
 
 </pre>
 
