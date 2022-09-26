@@ -1,0 +1,585 @@
+======================================================================
+UNIT CONVERSIONS
+
+length 
+ 1 in     | 25.4 mm        |    
+ 1 ft     | 12 in          | 0.3048 m
+ 1 yd     | 3 ft           | 0.9144 m
+---------------------------------------
+massa
+ 1 lb     | 0.453592 kg    |           
+---------------------------------------
+force
+ 1 dyne   | 10e-5 N        |           
+---------------------------------------
+energy 
+ 1 cal    | 4.1858 J       |           
+ 1 eV     | 0.160219e-18 J |
+ 1 erg    | 1e-7 J         |           
+---------------------------------------
+pressure
+ 1 atm    | 101.325 kPa    |           
+ 1 torr   | 1 mm Hg        | 133.32 Pa 
+ 1 bar    | 100 kPa        | 1000 hPa  
+---------------------------------------
+angle
+ 1 rad    | 57.30^o        |           
+ 1 ^o     | 0.01745 rad    |           
+
+======================================================================
+ENERGY UNITS
+
+1  cal   =  4.184      J    =  4.184     Ws
+1  J     =  1          Ws   =  0.239     cal   
+1  Ws    =  1          J    =  0.239     cal
+1  Wh    =  3600       J    =  860.4     cal
+1  kcal  =  4.184      kJ   =  0.001162  kWh  
+1  kJ    =  0.0002778  kWh  =  0.239     kcal
+1  kWh   =  3600       kJ   =  860.4     kcal
+1  eV    =  1.60e-19   J    =  3.82e-20  cal   =  4.45e-23  Wh
+
+======================================================================
+ENERGY CONTENTS
+
+      |          | J       | Wh      | cal      |
+-------------------------------------------------
+1 g   | fat      | 37.8e3  | 10.5    | 9e3      | 
+1 g   | alcohol  | 29.4e3  | 8.13    | 7e3      | 
+1 g   | carbs    | 16.8e3  | 4.67    | 4e3      | 
+1 g   | protein  | 16.8e3  | 4.67    | 4e3      | 
+1 g   | TNT      | 4.184e3 | 1.16    | 1e3      | 
+1 g   | coal     | 29.3e3  | 8.12    | 7e3      | 
+1 g   | petrol   | 48e3    | 13.3    | 11.5e3   | 
+1 l   | petrol   | 36e6    | 10e3    | 8.6e6    | 
+1 l   | petrol   |         | 9.7e3   |          |
+1 l   | diesel   | 39.6e6  | 11e3    | 9.5e6    | 
+1 l   | diesel   |         | 10.7e3  |          |
+1 m^3 | nat.gas  | 38e6    | 10.56e3 | 9.1e6    | 
+1 l   | jet fuel |         | 10.4e3  |          |
+1 y   | sun      | 36e20   | 1e18    | 8.6e20   | whole earth 
+1 s   | cel.met  | 6e-11   | 167e-17 | 1.43e-11 | cel metabolism
+1 d   | human    | 10460e3 | 2905    | 2500e3   | 2905/24 = 121 W 
+1 Ah  | 12V bat  | 43.2e3  | 12      | 10.3e3   |  
+25 g  | peanuts  |         |         | 150e3    | 
+
+running
+ratio carbs/fat energy : slow 33/67   average  50/50   fast  85/15
+marathon :  2.5 h, 2500 kcal = 2.906 kWh -> 1162 W
+
+
+car : 15000 km/y -> (1/12)(15000) l.petrol/y = (1/12)(15000)(9.7) kWh/y = 12125 kWh/y
+
+yearly energy consumption NL : 120 TWh = 120^12 W 
+
+======================================================================
+PHYSICAL/MECHANICAL UNITS
+
+length                            | meter    | m        |                     |
+time                              | second   | s        |                     |
+mass                              | kilogram | kg       |                     |
+current                           | ampere   | A        | C s^{-1}            |
+temperature                       | kelvin   | K        |                     |
+force                             | newton   | N        | kg m s^{-2}         |
+moment                            |          |          | N m                 |
+energy                            | joule    | J        | N m                 |
+power                             | watt     | W        | J s^{-1}            |
+frequency                         | hertz    | Hz       | s^{-1}              |
+electric charge                   | coulomb  | C        | A s                 |
+electric potential                | volt     | V        | J C^{-1}            |
+electric field                    |          |          | V m^{-1}            |
+electric resistance               | ohm      | \GO      | V A^{-1}            |
+capacity                          | farad    | F        | C V^{-1}            |
+induction                         | henry    | H        | J A^{2}             |
+                                  |          |          | N Wb{-1}            |
+                                  |          |          | A m{-1}             |
+magnetic flux                     | weber    | Wb       | V s                 |
+                                  |          |          | C m s^{-1}          |
+magnetic field                    | tesla    | T        | Wb m^{-2}           |
+entropy                           |          |          | J K^{-1}            |
+specific heat                     |          |          | J kg^{-1} K         |
+pressure                          | pascal   | Pa       | N m^{-2}            |
+-------------------------------------------------------------------------------
+magn. permeability                |          |          | C^{2} N^{-1} m^{-2} |
+                                  |          |          | F m{-1}             |
+                                  |          |          | C V^{-1} m^{-1}     |
+atomic mass                       |          | A        |                     | 
+mole                              | mole     | g        | mol                 | 1 mole = (N_A)(u)(A)
+atomic number                     |          | n        |                     |
+molecular weight                  |          | M        |                     |
+atomic radius                     |          | r_a      | 10^{-12} m          |
+ionic radius                      |          | r_i      | 10^{-12} m          |
+electron affinity                 |          |          | kJ mol^{-1}         |
+ionization energy                 |          |          | MJ mol^{-1}         |
+breaking index                    |          | \Gm      |                     |
+surface energy                    |          | \Gg      |                     |
+surface tension                   |          |          |                     |
+spec. elec. resist.               |          | \Gr      |                     |
+specific heat                     |          | C_p      | J kg^{-1} K^{-1}    |
+specific energy                   |          |          |                     |
+thermal conductivity              |          | \Gl      | W m^{-1} K^{-1}     |
+diffusivity                       |          | D        |                     |
+boiling temperature               |          |          |                     |
+porosity                          |          |          |                     |
+dielectric constant               |          | \Ge_r    |                     |
+Young's modulus                   |          | E        | N m^{-2} = Pa       |
+Young's modulus <T_g              |          | E_g      | N m^{-2} = Pa       |
+Young's modulus >T_g              |          | E_r      | N m^{-2} = Pa       |
+Poisson's ratio                   |          | \Gn      | -                   |
+initial yield stress              |          | \Gs_{y0} | N m^{-2}            |
+tensile strength                  |          | \Gs_t    | N m^{-2}            |
+fracture stress                   |          | \Gs_f    | N m^{-2}            |
+fracture strain                   |          | \Ge_f    | -                   |
+critical energy release rate      |          | G_c      |                     |
+fracture toughness                |          | K_{Ic}   |                     |
+Charpy energy                     |          | C_v      |                     |
+hardness Rockwell                 |          | H_R      |                     |
+hardness Vickers                  |          | H_V      | kg mm^{-2}          |
+hardness Brinell                  |          | H_B      |                     |
+hardness Mohr                     |          | -        |                     |
+density                           |          | \Gr      | kg m^{-3}           |
+wave speed sound                  |          |          |                     |
+dynamic viscosity                 |          | \Gh      | N s m^{-2} = Pa s   |
+kinematic viscosity = \Gh/\Gr     |          | \Gn      | m^2 s^{-1}          |
+fluidity = 1/\Gh                  |          | \Gf      |                     |
+coefficient of thermal expansion  |          | \Ga      | 1e-6 K^{-1}         |
+melting temperature               |          | T_m      | ^o C                |
+glass transition temperature      |          | T_g      |                     |
+
+======================================================================
+PHYSICAL CONSTANTS
+
+CONSTANT                            | SYMBOL    | VALUE           | UNIT                  |
+-------------------------------------------------------------------------------------------
+atomic mass unit                    | u         | 1.66057e-27     | kg                    |
+Bohr radius                         | a_0       | 5.29177e-11     | m                     |
+electron radius                     | r_e       | 2.81792e-15     | m                     |
+molar volume                        | V_{mol}   | 22.41383        | mol^{-1}              |
+Avogadro's number                   | N_A       | 6.0221367e23    | mol^{-1}              |
+Boltzmann constant                  | k = R/N_A | 1.380658e-23    | J K^{-1}              |
+elementary charge                   | e         | 1.60217733e-19  | C                     |
+electron volt                       | e         | 1.60217733e-19  | C                     |
+Faraday constant                    | F = N_A e | 9.64846e4       | C mol^{-1}            |
+gas constant                        | R = N_A k | 8.31441         | J K^{-1} mol^{-1}     |
+gas constant                        | R = N_A k | 0.08206         | L atm K^{-1} mol^{-1} |
+mass of an electron                 | m_e       | 9.1093897e-31   | kg                    |
+mass of an electron                 | m_e       | 5.48580e-4      | u                     |
+mass of an electron                 | m_e       | 0.511e6         | eV                    |
+mass of a neutron                   | m_n       | 1.6749286e-27   | kg                    |
+mass of a neutron                   | m_n       | 1.00866         | u                     |
+mass of a neutron                   | m_n       | 939.57e6        | eV                    |
+mass of a proton                    | m_p       | 1.6726231e-27   | kg                    |
+mass of a proton                    | m_p       | 1.00728         | u                     |
+mass of a proton                    | m_p       | 938.28e6        | eV                    |
+Planck constant                     | h         | 6.6260755e-34   | J s                   |
+speed of light                      | c         | 2.9979246e8     | m s^{-1}              |
+gravitation constant                | G         | 6.67259e-11     | Nm^{2} kg^{-2}        |
+permittivity (vacuum)               | \Ge_0     | 8.85419e-12     | C^2 N^{-1} m^{-2}     |
+permeability (vacuum)               | \Gm_0     | 4 \Gp e-7       | H m^{-1}              |
+permeability (vacuum)               | \Gm_0     | 12.566370614    | T^2 m^3 J^{-1}        |
+speed of light in vacuum            | c         | 299792458       | m s^{-1}              |
+dielectric constant                 | \Ge_0     | 8.854187817e-12 | C^2 J^{-1} m^{-1}     |
+relative dielectric constant        | \Ge_r     |                 | C^2 J^{-1} m^{-1}     |
+Bohr magneton                       | \Gm_b     | 9.2740154e-24   | J T^{-1}              |
+proton g factor (lande factor)      | g_h       | 5.585           |                       |
+nuclear magneton                    | \Gm_n     | 5.0507866e-27   | J T^{-1}              |
+free electron g factor              | g_e       | 2.002319304386  |                       |
+free electron gyromagnetic ratio    | \Gg_e     | 1.7608592e11    | T s^{-1}              |
+electron magnetic moment            | \Gm_e     | -9.2847701e-24  |                       |
+proton gyromagnetic ratio in water  | \Gg_p     | 2.67515255e8    | T s^{-1}              |
+gravitational constant              | g_a       | 6.673*10e-11    | m^3 kg^{-1} s^{-2}    |
+earth gravity acceleration          | g         | 9.80665         | m s^2                 |
+compton wavelength of the electron  | \Gl_c     | 2.42631e-12     | m                     |
+
+relative dielectric constant  \Ge_r
+
+--------------------------------
+vacuum              |   1 
+air (1 atm)         |   1.0006 
+air (100 atm)       |   1.0548 
+ethanol             |   28.4 
+water               |   81.0 
+transformator oil   |   2.5 
+glas                |   5 - 10 
+mica                |   2 - 7 
+
+======================================================================
+SOLAR SYSTEM
+
+object       | mass     | mass/   | distance   | radius | year   | velocity | h.long axis | excen-   |
+             | [kg]     | m.earth | earth [km] | [km]   | [day]  | [km/s]   | [10$^6$ km] |  tricity |
+------------------------------------------------------------------------------------------------------
+Sun          | 1.978e30 |         | 1.496e8    | 696500 |        |          |             |          |
+(perihelium) |          |         | 1.470e8    |        |        | 30.2     |             |          |
+(epihelium)  |          |         | 1.520e8    |        |        | 29.2     |             |          |
+Mercure      | 3.302e23 | 0.055   |            | 2439   |  87.96 |          |   57.9      | 0.2056   |
+Venus        | 4.870e24 |         |            |        | 224.68 |          |  108.2      | 0.0068   |
+Earth        | 5.975e24 | 1       | -          | 6378   | 365.24 |          |  149.6      | 0.0167   |
+Moon         | 7.343e22 |         | 3.844e5    | 1738   |        |          |             |          |
+Mars         | 6.420e23 | 0.107   |            | 3398   | 686.95 |          |  227.9      | 0.0934   |
+Jupiter      | 1.900e27 |         |            |        |  4337  |          |  778.9      | 0.0483   |
+Saturnus     | 5.685e26 |         |            |        | 10760  |          | 1427.0      | 0.0547   |
+Uranus       | 8.700e25 |         |            |        | 30700  |          | 2871.0      | 0.0461   |
+Neptunus     | 1.029e26 |         |            |        | 60200  |          | 4497.1      | 0.0100   |
+Pluto        | 1.800e22 |         |            |        | 90780  |          | 5983.5      | 0.2462   |
+
+earth radius equatorial : 6378.137   km
+earth radius polar      : 6356.752   km
+earth radius average    : 6367.445   km
+mass center earth-moon  : 4600       km   from earth earth center
+
+Closest star            : 4.5        lightyears : Proxima Centauri
+Diameter Local Bubble   : 10000      lightyears [son moved to center:: coincidence]
+Diameter Milky Way      : 150000     lightyears
+
+======================================================================
+PHYSICAL PROPERTIES AT ROOM TEMPERATURE
+
+density                          \Gr
+melting temperature              T_m
+heat capacity                    C
+heat conduction coefficient      \Gl
+
+--------------------------------------------------------------------------
+                | \Gr [kg/m^3] | T_m [^o C]  | C [J/kg K]  | \Gl [W/m K] |
+--------------------------------------------------------------------------
+Aluminum        | 2700         | 660         | 900         | 222         |
+Al alloys       | 2630 - 2820  | 476 - 654   | 880 - 920   | 121 - 239   |
+Beryllium       | 1864         | 1278        | 1884        | 146         |
+Copper          | 8970         | 1082        | 385         | 393         |
+Cu alloys       | 7470 - 8940  | 885 - 1260  | 377 - 435   | 29 - 234    |
+Iron            | 7860         | 1537        | 460         | 74          |
+Steels          | 6920 - 9130  | 1371 - 1532 | 448 - 502   | 15 - 52     |
+Lead            | 11350        | 327         | 130         | 35          |
+Pb alloys       | 8850 - 11350 | 182 - 326   | 126 - 188   | 24 - 46     |
+Magnesium       | 1745         | 650         | 1025        | 154         |
+Mg alloys       | 1770 - 1780  | 610 - 621   | 1046        | 75 - 138    |
+Mb alloys       | 10210        | 2610        | 276         | 142         |
+Nickel          | 8910         | 1453        | 440         | 92          |
+Ni alloys       | 7750 - 8850  | 1110 - 1454 | 381 - 544   | 12 - 63     |
+Tantalum alloys | 16600        | 2996        | 142         | 54          |
+Titanium        | 4510         | 1668        | 519         | 17          |
+Tn alloys       | 4430 - 4700  | 1549 - 1649 | 502 - 544   | 8 - 12      |
+Tungsten        | 19290}       | 3410        | 138         | 166         |
+Ceramics        | 2300 - 5500  | -           | 750 - 950   | 10 - 17     |
+Glasses         | 2400 - 2700  | 580 - 1540  | 500 - 850   | 0.6 - 1.7   |
+Graphite        | 1900 - 2200  | -           | 840         | 5 - 10      |
+Plastics        | 900 - 2000   | 110 - 330   | 1000 - 2000 | 0.1 - 0.4   |
+Wood            | 400 - 700    |  -          | 2400 - 2800 | 0.1 - 0.4   |
+
+======================================================================
+MECHANICAL PROPERTIES AT ROOM TEMPERATURE
+
+E        Youngs modulus [Gpa]
+\Gn      Poisson's ratio [-]
+\Gs_{y0} initial yield stress [MPa]
+\Gs_u    ultimate stress [MPa]
+\Gs_f    fracture stress [MPa]
+\Ga      coefficient of thermal expansion [K^{-1}]
+K_{Ic}   fracture toughness [MPa \sqrt{m}]
+
+--------------------------------------------------------------------------------
+                | E   | \Gn | \Gs_{y0}   | \Gs_u     | \Gs_f | \Ga   | K_{Ic}  |
+--------------------------------------------------------------------------------
+Cast iron       |     |     |            |           |       |       |    20   |
+Carbon steel    | 210 | 0.3 |    250     |    370    |   250 | 12e-6 |   220   |
+Stainless steel | 200 | 0.3 |    200     |    500    |       | 17e-6 |    75   |
+Aluminum alloy  |  70 |     |  60 - 500  | 170 - 350 |       | 23e-6 | 29 - 45 |
+Titanium alloy  |     |     | 900 - 1100 |           |       |       | 35 - 70 |
+Glass           |  60 |     |            |           |   170 |       |         |
+Silica fibers   | 100 |     |            |           | 25000 |       |         |
+Piano wire      | 200 |     |            |           |  2750 |       |         |
+Epoxy           |     |     |            |           |       |       |   0.5   |
+SiC             |     |     |            |           |       |       |    3    |
+
+======================================================================
+VISCOSITY
+
+viscosity     \Gh    [Nsm^{-2}]    ( 20 ^o C ; atmospheric pressure )
+
+------------------------
+water           | 1.005 
+air             | 1.81  
+oil             | 9.86  
+ammonia gas     | 0.97  
+water (0$^o$ C) | 1.792 
+air (0$^o$ C)   | 1.71
+glycerine       | 833
+hydrogyn gas    | 0.93
+
+======================================================================
+FRICTION COEFFICIENT
+
+static friction      \Gm_s
+kinematic friction   \Gm_k
+
+----------------------------------
+steel  -  steel   |  0.78  |  0.42 
+nikkel -  nikkel  |  1.10  |  0.53 
+teflon -  teflon  |  0.04  |  0.04 
+wood   -  wood    |  0.35  |  0.15 
+ice    -  ice     |  0.05  |  0.04 
+
+======================================================================
+MECHANICAL PROPERTIES OF PLASTICS AT ROOM TEMPERATURE
+
+material               |  Gst       |  E          |  Gef       |  Gn         |
+unit                   |  [MPa]     |  [GPa]      |  [%]       |  [-]        |
+------------------------------------------------------------------------------
+ABS                    |  28 - 55   | 1.4   - 2.8 |   75 - 5   |             |
+ABS, reinforced        |    100     |      7.5    |            |    0.35     |
+Acetal                 |  55 - 70   | 1.4   - 3.5 |   75 - 25  |             |
+Acetal, reinforced     |    135     |      10     |            | 0.35 - 0.40 |
+Acrylic                |  40 - 75   | 1.4   - 3.5 |   50 - 5   |             |
+Cellulosic             |  10 - 48   | 0.4   - 1.4 |  100 - 5   |             |
+Epoxy                  |  35 - 140  | 3.5   - 17  |   10 - 1   |             |
+Epoxy, reinforced      |  70 - 1400 | 21    - 52  |    4 - 2   |             |
+Fluorocarbon           |   7 - 48   | 0.7   - 2   |  300 - 100 | 0.46 - 0.48 |
+Nylon                  |  55 - 83   | 1.4   - 2.8 |  200 - 60  | 0.32 - 0.40 |
+Nylon, reinforced      |  70 - 210  | 2     - 10  |   10 - 1   |             |
+Phenolic               |  28 - 70   | 2.8   - 21  |    2 - 0   |             |
+Polycarbonate          |  55 - 70   | 2.5   - 3   |  125 - 10  |    0.38     |
+PC, reinforced         |    110     |       6     |    6 - 4   |             |
+Polyester              |     55     |       2     |  300 - 5   |    0.38     |
+Polyester, reinforced  | 110 - 160  | 8.3   - 12  |    3 - 1   |             |
+Polyethylene           |   7 - 40   | 0.1   - 1.4 | 1000 - 15  |    0.46     |
+Polypropylene          |  20 - 35   | 0.7   - 1.2 |  500 - 10  |             |
+PP, reinforced         |  40 - 100  | 3.5   - 6   |    4 - 2   |             |
+Polystyrene            |  14 - 83   | 1.4   - 4   |   60 - 1   |    0.35     |
+Polyvinyl chloride     |   7 - 55   | 0.014 - 4   |  450 - 40  |             |
+
+======================================================================
+EXPONENTIAL HARDENING PARAMETERS
+
+\Gs = K \Ge^n 
+
+---------------------------------------------
+material                      |  K   |  n   |
+                              | MPa  |  -   |
+---------------------------------------------
+Aluminum 1100-O               | 180  | 0.20 |
+Aluminum 2024-T4              | 690  | 0.16 |
+Brass 70-30, annealed         | 900  | 0.49 |
+Brass 85-15, cold-rolled      | 580  | 0.34 |
+Copper, annealed              | 315  | 0.54 |
+Steel 304 stainless, annealed | 1275 | 0.45 |
+Steel 410 stainless, annealed | 960  | 0.10 |
+Steel 4135, annealed          | 1015 | 0.17 |
+Steel 4135, cold-rolled       | 1100 | 0.14 |
+Steel Low-C, annealed         | 530  | 0.26 |
+
+======================================================================
+PROPERTIES OF SOLDER MATERIALS
+
+melting temperature         T_m          [^o C]
+solidus temperature         T_s          [^o C]
+liquidus temperature        T_l          [^o C]
+eutectic temperature        T_e          [^o C]    
+density                     \Gr          [g cm^{-3}]
+coef. of therm. expansion   CTE          [10^{-6} K^{-1}]
+thermal conditioning                     [W m^{-1} K^{-1}]
+
+-----------------------------------------------------------------------------------------
+Alloy                | T_m     | T_s     | T_l | T_e | \Gr  | CTE       | therm.cond.
+-----------------------------------------------------------------------------------------
+Sn-37Pb              |         |         |     | 183 |      | 21.0      |
+Sn-40Pb              |         | 183     | 187 |     | 8.90 |           |
+Bi-26In-17Sn         | 79      |         |     |     |      |           |
+Bi-32In              |         |         |     | 110 |      |           |
+Bi-41.7Sn-1.3Zn      | 127     |         |     |     |      |           |
+Bi-41Sn-1Ag          |         |         |     |     |      |           |
+Bi-41Sn-1Pb          |         |         |     |     |      |           |
+Bi-42Sn              |         |         |     | 139 | 8.74 | 15.0      | 21.0 (85 degC)
+Bi-42Sn (eutectic)   |         |         |     | 139 |      |           |
+Bi-43Sn+2.5%%Fe      |         |         |     |     |      |           |
+Bi-45Sn-0.33Ag       | 140-145 |         |     |     |      |           |
+In-3Ag               |         |         |     | 141 |      | 20.0      | 73.0
+In-34Bi              |         |         |     | 110 |      |           |
+In-48Sn (eutectic)   |         |         |     | 117 |      | 20.0      | 34.0 (85 degC)
+Sn-1Ag-1Sb           |         | 222     | 232 |     |      |           |
+Sn-1Ag-1Sb-1Zn       |         |         |     |     |      |           |
+Sn-2.5Ag-0.8Cu-0.5Sb | 210-216 |         | 217 |     |      |           |
+Sn-2.8Ag-20In        | 178     |         |     |     |      |           |
+Sn-25Ag-10Sb         | 233     |         |     |     |      |           |
+Sn-2Ag               |         | 221     | 225 |     |      |           |
+Sn-2Ag-0.8Cu-0.6Sb   | 210-216 |         |     |     |      |           |
+Sn-2Ag-0.8Cu-6Zn     |         | 217     | 217 |     |      |           |
+Sn-2Ag-0.8Cu-8Zn     |         | 215     | 215 |     |      |           |
+Sn-3.5Ag             |         |         |     | 221 | 7.39 | 22.0      | 33.0 (85 degC)
+Sn-3.5Ag-(<6)Bi      |         | 211-221 | 212 |     |      |           |
+Sn-3.5Ag-1Zn         | 217     |         |     |     |      |           | 33.0 (85 degC)
+Sn-3.5Ag-1Zn-0.5Cu   | 216-217 |         |     |     |      |           |
+Sn-3.6Ag-1.5Cu       | 225     |         |     |     |      |           |
+Sn-4.7Ag-1.7Cu       | 217     |         |     |     |      |           |
+Sn-4Ag               |         | 221     | 225 |     |      |           |
+Sn-4Ag-7Sb           |         |         | 230 |     |      |           |
+Sn-4Ag-7Sb-1Zn       |         |         |     |     |      |           |
+Sn-10Bi-0.8Cu        |         | 185     | 217 |     |      |           |
+Sn-10Bi-0.8Cu-1Zn    |         |         |     |     |      |           |
+Sn-10Bi-5Sb          |         | 193     | 232 |     |      |           |
+Sn-10Bi-5Sb-1Zn      |         |         |     |     |      |           |
+Sn-4.8Bi-3.4Ag       |         |         |     |     |      | 23.0      |
+Sn-42Bi              |         | 139     | 170 |     |      |           |
+Sn-45Bi-3Sb          |         | 145     | 178 |     |      |           |
+Sn-45Bi-3Sb-1Zn      |         |         |     |     |      |           |
+Sn-56Bi-1Ag          | 136.5   |         |     |     |      |           |
+Sn-57Bi-1.3Zn        | 127     |         |     |     |      |           |
+Sn-5Bi-3.5Ag         |         |         |     |     |      |           |
+Sn-7.5Bi-2Ag-0.5Cu   |         | 207     | 212 |     |      |           |
+Sn-0.75Cu            |         | 227     | 229 |     |      |           |
+Sn-0.7CU (eutectic)  |         |         |     | 227 | 7.29 |           |
+Sn-2Cu-0.8Sb-0.2Ag   | 266-268 |         |     |     |      |           |
+Sn-3Cu               |         | 227     | 275 |     |      |           |
+Sn-4Cu-0.5Ag         |         | 216     | 222 |     |      |           |
+Sn-20In-2.8Ag        | 178-189 |         |     |     |      | 28.0      | 53.5 (30 degC)
+Sn-42In              |         | 117     | 140 |     |      |           |
+Sn-5In-3.5Ag         |         |         |     |     |      |           |
+Sn-10In-1Ag-0.5Sb    | 196-206 |         |     |     |      |           |
+Sn-36In              |         | 117     | 165 |     |      |           |
+Sn-50In              |         | 117     | 125 |     |      |           |
+Sn-8.8In-7.6Zn       | 181-187 |         |     |     |      |           |
+Sn-2Mg (eutectic)    |         |         |     | 200 |      |           |
+Sn-5Sb               |         | 234     | 240 |     | 7.25 |           |
+Sn-4Sb-8Zn           | 198-204 |         |     |     |      |           |
+Sn-7Zn-10In-2Sb      | 181     |         |     |     |      |           |
+Sn-8Zn-10In-2Bi      | 175     |         |     |     |      |           |
+Sn-8Zn-4In           |         |         |     |     |      |           |
+Sn-9Zn-10In          | 178     |         |     |     |      |           |
+Sn-5.5Zn-4.5In-3.5Bi | 185-188 |         |     |     |      |           |
+Sn-6Zn-6Bi           | 127     |         |     |     |      |           |
+Sn-9Zn (eutectic)    |         |         |     | 198 | 7.27 |           |
+Sn-9Zn-5In           | 188     |         |     |     |      |           |
+Si                   |         |         |     |     |      | 2.6       |
+Cu                   |         |         |     |     |      | 16.0-18.0 |
+Epoxies              |         |         |     |     |      | 60.0-80.0 |
+FR-4                 |         |         |     |     |      | 11.0-15.0 |
+
+
+--------------------------------------------------------------------------------------------
+Property             |              | Cu_6 Sn_5        | Cu_3 Sn          | Ni_3 Sn_4   
+--------------------------------------------------------------------------------------------
+Vickers Hardness     | kg/mm^{2}    | 378   \pm 55     | 343   \pm 47     | 365 \pm 7    
+Toughness            | MPa m^{-1/2} | 1.4   \pm 0.3    | 1.7   \pm 0.3    | 1.2 \pm 0.1  
+Youngs Modulus       | GPa          | 85.56 \pm 1/65   | 108.3 \pm 4.4    | 133.3 \pm 5.6  
+Shear Modulus        | GPa          | 50.21            | 42.41            | 45.0         
+Thermal Expansion    | 10^{-6}/deg  | 16.3  \pm 0.3    | 19.0  \pm 0.3    | 13.7  \pm 0.3  
+Thermal Diffusivity  | cm^{2}/sec   | 0.145 \pm 0.015  | 0.24  \pm 0.024  | 0.083 \pm 0.008
+Heat Capacity        | J/g/deg      | 0.286 \pm 0.012  | 0.326 \pm 0.012  | 0.272 \pm 0.012
+Resistivity          | MU ohm-cm    | 17.5  \pm 0.1    | 8.93  \pm 0.02   | 28.5  \pm 0.1  
+Density              | g/cc         | 8.28  \pm 0.02   | 8.9   \pm 0.02   | 8.65  \pm 0.02 
+Thermal Conductivity | W/cm-deg     | 0.341 \pm 0.051  | 0.704 \pm 0.098  | 0.196 \pm 0.019
+
+======================================================================
+FORMING PROCESSES
+
+\Ge  : logarithmic strain  \Ge = \ln{l/l_0}   [-] 
+v    : deformation rate                       [m/s] 
+
+tabel 2.4 pag. 74 Kalpakjian 2nd edition KFB92KAL
+
+------------------------------------------------------
+                      |  \Ge        |  v             |
+------------------------------------------------------
+cold forging          | 0.1  - 0.5  | 0.1    - 100   |
+cold rolling          | 0.1  - 0.5  | 0.1    - 100   |
+wire/tube drawing     | 0.05 - 0.5  | 0.1    - 100   |
+Explosive forming     | 0.05 - 0.2  | 10     - 100   |
+hot forging           | 0.1  - 0.5  | 0.1    - 30    |
+hot rolling           | 0.1  - 0.5  | 0.1    - 30    |
+extrusion             | 2    - 5    | 0.1    - 1     |
+machining             | 1    - 10   | 0.1    - 100   |
+sheet-metal forming   | 0.1  - 0.5  | 0.05   - 2     |
+superplastic forming  | 0.2  - 3    | 0.0004 - 0.001 |
+
+======================================================================
+SOUND LEVEL
+
+sound intensity    P   [W m^{-2}]
+sound level        10 10log(P/P_{ref})  [dB]       P_{ref} = 10^{-12} [W m^{-2}]
+
+-------------------------------------------------
+                          | P [W m^{-2}] | [dB] |
+-------------------------------------------------
+hearing limit (1 kHz)     | 10^{-12}     |   0  |
+almost complete silence   | 10^{-11}     |  10  |
+library                   | 10^{-10}     |  20  |
+wispering                 | 10^{-9}      |  30  |
+conversation              | 10^{-8}      |  40  |
+vacuum cleaner            | 10^{-7}      |  50  |
+motor cycle               | 10^{-3}      |  90  |
+painfull (1 kHz)          | 10           | 130  |
+hearing damage            | 10^{3}       | 150  |
+rocket launch (daedly)    | 10^{4}       | 160  |
+
+======================================================================
+GEOLOGICAL PERIODS
+
+----------------------------------------------------
+NAME                     |  TIME [1e6 y]           |
+----------------------------------------------------
+archeozoicum             |  4.6 1e3                |
+                         |                         |
+paleozoicum              |                         |
+                         |                         |
+ proterozoicum           |  2500                   |
+ cambrium                |  542                    | 530  | First fish
+ ordovicium              |  488.3                  |
+ siluur                  |  443                    |
+ devoon                  |  416                    | 370  | First land animals
+ carboon                 |  359                    |
+ perm                    |  299                    | 
+                         |                         |
+mesozoicum               |                         |
+                         |                         |
+ trias                   |  252.2 (247-237)        |
+                         |                         | 250  | The great dying (80-90 %) : Perm-Trias-mass-extinction [supervulcanism]
+                         |                         | 210  | First mammals
+ jura                    |  199.6                  |
+   bajocien              |  170-168                |
+   bathonien             |  168-166                |
+   callovien             |  166-163.5              |
+   kimmeridgien          |  157-152                |
+   tithonien             |  152-145                |
+ krijt                   |  145-65.5               |
+   berriasien            |  145-140                |
+                         |                         | 130  | First flowers
+   maastrichtien         |  72-65.5                |  66  | Dinosaur extinction
+                         |                         |
+cenozoicum               |                         |
+                         |                         |
+ paleoceen               |  65.5                   |
+ eoceen                  |  55.8 (tertiair)        |
+   lutetien              |  48-41                  |
+   bartonien             |  41-38                  |
+   priabonien            |  38-33.9                |
+ oligoceen               |  33.9                   |
+ mioceen                 |  23                     |
+   badenien              |  16-13.5 (langhien)     |
+ plioceen                |  5.3                    |
+ pleistoceen             |  1.8                    | 0.3  | First modern humans
+ holoceen                |  0.01                   |
+ antropoceen             |  0.00005                |
+----------------------------------------------------
+
+======================================================================
+COMPOSITION OF THE EARTH in % WEIGHT
+
+-----------------------------
+     |  earth   |  crust    |
+-----------------------------
+Fe   |   35     |   6       |  
+O    |   20     |   41      |  
+Si   |   15     |   27      |  
+Mg   |   13     |   2.8     |  
+Ni   |   2.4    |   0.01    |  
+S    |   1.9    |   0.03    |  
+Ca   |   1.1    |   4.5     |  
+Al   |   1.1    |   8.4     |  
+Na   |   0.57   |   2.3     |  
+Cr   |   0.26   |   0.01    |  
+Mn   |   0.22   |   0.1     |  
+Co   |   0.13   |   0.003   |  
+P    |   0.1    |   0.1     |  
+K    |   0.08   |   1.8     |  
+Ti   |   0.05   |   0.6     |  
+
+======================================================================
